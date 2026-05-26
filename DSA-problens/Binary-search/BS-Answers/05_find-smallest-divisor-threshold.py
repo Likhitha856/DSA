@@ -38,4 +38,4 @@ def optimal(nums,th):
         else:
             low=mid+1   
     return smid
-print(optimal(nums,threshold))
+print(optimal(nums,threshold)) 
