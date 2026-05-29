@@ -7,7 +7,7 @@ The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] a
 Return the minimum number of days you need to wait to be able to make m bouquets from the garden. If it is impossible to make m bouquets return -1.
 
  '''
-bloomDay =[1000000000,1000000000]
+bloomDay =[10,10]
 m = 1
 k = 1
 def is_possible(arr,day,m,k):

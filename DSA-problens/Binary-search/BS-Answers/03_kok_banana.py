@@ -9,11 +9,13 @@ from math import ceil
 piles = [3,6,7,11]
 
 h = 8
+
 def brute(p,h):
     m=max(p)
     for i in range(1,m+1):
         total_hrs=0
         for j in range(len(piles)):
+            # total hours to complete one pile= no.of bananas in pile / bananas eaten per hour
             total_hrs+=ceil(piles[j]/i)
         if total_hrs<=h:
             return i
